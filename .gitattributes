@@ -1,2 +1,21 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Label Studio
+labelenv/
+label-studio/
+*.db
+*.sqlite3
+label_studio.sqlite3
+mydata/
+.env
+
+# Dataset (400+ image files)
+dataset/
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# YOLO training outputs
+runs/
+weights/
+*.pt
+*.onnx
